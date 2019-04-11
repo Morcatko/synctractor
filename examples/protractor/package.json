@@ -1,0 +1,15 @@
+{
+  "name": "protractor-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "webdriver-manager update",
+    "test": "protractor protractor.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "^5.4.2"
+  }
+}

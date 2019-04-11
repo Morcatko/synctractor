@@ -1,0 +1,24 @@
+{
+  "name": "react-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "synctractor": "file:../.."
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}

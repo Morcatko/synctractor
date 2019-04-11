@@ -1,0 +1,25 @@
+{
+  "name": "synctractor",
+  "version": "0.1.0",
+  "description": "Protractor Synchronization for non-Angular projects",
+  "main": "dist/index.js",
+  "directories": {
+    "bin": "dist",
+    "example": "examples",
+    "lib": "lib"
+  },
+  "files":["dist"],
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Morcatko/synctractor.git"
+  },
+  "author": "Ondrej Morsky",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.4.1"
+  }
+}
