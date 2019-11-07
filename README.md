@@ -42,6 +42,15 @@ There is automatic mode (`synctractor.monitorXXX()`) where you setup synctractor
         ```
         This value can be changed in protractor config by setting `allScriptsTimeout` value.
 
+### trackBackgroundOp
+ - In some cases you might want to group multiple backend calls into single protractor wait. In that case you can use `trackBackgroundOp` function.
+    ```
+    await trackBackgroundOp(async () => {
+        await call1();
+        doSomeMagic();
+        await call2();
+    });
+    ```
 
 ### Unsupported
 - AJAX
