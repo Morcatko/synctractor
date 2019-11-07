@@ -2,24 +2,36 @@
   "name": "synctractor",
   "version": "0.1.0",
   "description": "Protractor Synchronization for non-Angular projects",
+  "keywords": [
+    "protractor",
+    "react",
+    "reactjs",
+    "vue",
+    "vuejs",
+    "E2E",
+    "test",
+    "testing",
+    "webdriver",
+    "selenium"
+  ],
+  "homepage": "https://github.com/Morcatko/synctractor",
   "main": "dist/index.js",
   "directories": {
     "bin": "dist",
     "example": "examples",
     "lib": "lib"
   },
-  "files":["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Morcatko/synctractor.git"
-  },
+  "repository": "githun:Morcatko/synctractor",
   "author": "Ondrej Morsky",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^3.4.1"
+    "typescript": "^3.7.2"
   }
 }
