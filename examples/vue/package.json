@@ -9,12 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vue": "^2.6.10",
+    "vue": "^2.6.12",
     "synctractor": "file:../.."
   },
   "devDependencies": {
     "vue-loader": "^15.7.0",
-    "vue-template-compiler": "^2.6.10",
+    "vue-template-compiler": "^2.6.12",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0",
     "webpack-dev-server": "^3.2.1"
