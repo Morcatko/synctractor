@@ -13,7 +13,7 @@
     "synctractor": "file:../.."
   },
   "devDependencies": {
-    "vue-loader": "^15.7.0",
+    "vue-loader": "^15.9.6",
     "vue-template-compiler": "^2.6.10",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0",
